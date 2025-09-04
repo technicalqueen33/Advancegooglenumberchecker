@@ -200,4 +200,5 @@ main() {
 trap 'echo -e "\n${RED}[!] Script interrupted by user${NC}"; exit 1' INT
 
 # Run main function
+
 main "$@"
